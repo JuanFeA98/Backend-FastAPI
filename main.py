@@ -17,4 +17,12 @@ async def colors():
 # Operación GET con parametros (Existe la opción de establecer el formato de los parametros)
 @app.get("/items_num/{item_id}")
 async def root(item_id: int):
-    return {f'item id {item_id}': (item_id)}
+    if int(item_id):
+        return {f'item id {item_id}': item_id}
+    else:
+        return 'Esta ruta no esta disponible'
+
+
+
+# Project key: b0jtn76s_u1PDhG44pYApJQAuHA3cjX1YHnnEYjL2
+# Project Id: b0jtn76s
