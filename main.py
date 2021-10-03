@@ -22,7 +22,3 @@ async def root(item_id: int):
     else:
         return 'Esta ruta no esta disponible'
 
-
-
-# Project key: b0jtn76s_u1PDhG44pYApJQAuHA3cjX1YHnnEYjL2
-# Project Id: b0jtn76s

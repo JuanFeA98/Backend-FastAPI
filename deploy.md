@@ -22,3 +22,8 @@
 
 Esto realizara el deploy y nos entregara el respectivo endpoint del proyecto.
 
+**Paso 7.** Si hacemos alguna modificación de nuestro código utilizamos el comando
+    
+    deta deploy
+
+Esto actualizara los cambios.
