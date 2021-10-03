@@ -21,8 +21,11 @@ def read_root():
 
 @app.get("/items/{item_id}")
 def read_items(item_id):
-    return {'item id': item_id}
+    return {'item_id': item_id}
 
 @app.get("/test")
 def test():
-    return "Probando"
+    return {
+        "saludo": "Probando",
+        "numero": 13
+    }
