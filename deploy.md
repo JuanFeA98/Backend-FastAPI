@@ -8,7 +8,7 @@
 
     iwr https://get.deta.dev/cli.ps1 -useb | iex
 
-**Paso 4.** Verificamos que el cli de deta halla quedado correctemanete instalado y se encuentre dentro de nuestras variables de entorno
+**Paso 4.** Verificamos que el cli de deta halla quedado correctmanete instalado y se encuentre dentro de nuestras variables de entorno
 
     deta --help
 
